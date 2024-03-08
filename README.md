@@ -34,6 +34,7 @@ MathJax.Hub.Config({
 - <a href="https://senyuyangpdelearner.github.io/blog2" target="_blank">组合学的多项式方法：有限域Kakeya猜想</a>&ensp;<font size="2">2024.2.19</font> <br/>
 - <a href="https://senyuyangpdelearner.github.io/blog3" target="_blank">杂记3: 所有自然数都是有趣的</a>&ensp;<font size="2">2024.2.28</font> <br/>
 - <a href="https://senyuyangpdelearner.github.io/blog4" target="_blank">杂记3.1: 最小数原理的一点补充</a>&ensp;<font size="2">2024.3.2</font> <br/>
+- <a href="https://senyuyangpdelearner.github.io/blog5" target="_blank">杂记3.14: bootstrap method</a>&ensp;<font size="2">2024.3.8</font> <br/>
 - To be released...
 
 <br/>
