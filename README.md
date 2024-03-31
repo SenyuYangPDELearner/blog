@@ -28,7 +28,7 @@ MathJax.Hub.Config({
 </head>
 <div class="bjimg"></div>
 
-这里，<font color="Pink">奇迹</font>和<font color="Purple">魔法</font>都是存在的！请不紧不慢地补完吧~
+本博客出现的事物均已幻想入，<font color="Pink">奇迹</font>和<font color="Purple">魔法</font>都是存在的！请不紧不慢地补完吧~
 
 - (创刊)<a href="https://senyuyangpdelearner.github.io/article1/" target="_blank">张灯结彩：照亮球的外表面需要多少盏灯</a>&ensp;<font size="2">2024.2.12</font> <br/>
 - <a href="https://senyuyangpdelearner.github.io/article2/" target="_blank">组合学的多项式方法：有限域Kakeya猜想</a>&ensp;<font size="2">2024.2.19</font> <br/>
