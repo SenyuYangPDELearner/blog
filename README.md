@@ -8,11 +8,11 @@ height:100%;
 min-width: 1000px;
 z-index:-10;
 zoom: 1;
-  background-image: url();
+  background-image: url(https://github.com/SenyuYangPDELearner/SenyuYangPDELearner.github.io/blob/main/images/%5Blab.magiconch.com%5D%5B%E7%A6%8F%E9%9F%B3%E6%88%B0%E5%A3%AB%E6%A8%99%E9%A1%8C%E7%94%9F%E6%88%90%E5%99%A8%5D-1710041943775.jpg?raw=true);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center 0;
-  opacity: 0.3;
+  opacity: 0.2;
   }
 </style>
 <head>    
