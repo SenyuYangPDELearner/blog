@@ -36,6 +36,7 @@ MathJax.Hub.Config({
 - <a href="https://senyuyangpdelearner.github.io/rambling3.1/" target="_blank">杂记3.1: 最小数原理的一点补充</a>&ensp;<font size="2">2024.3.2</font> <br/>
 - <a href="https://senyuyangpdelearner.github.io/rambling3.14/" target="_blank">杂记3.14: bootstrap method</a>&ensp;<font size="2">2024.3.8</font> <br/>
 - ($\pi$ day)<a href="https://senyuyangpdelearner.github.io/rambling3.141/" target="_blank">杂记3.141: Cauchy积分定理的一个优雅证明</a>&ensp;<font size="2">2024.3.14</font> <br/>
+- <a href="https://senyuyangpdelearner.github.io/article3/" target="_blank">调和分析：Littlewood-Paley定理的随机化证明</a>&ensp;<font size="2">2024.4.20</font> <br/>
 - To be released...
 
 <br/>
