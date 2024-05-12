@@ -8,7 +8,7 @@ height:100%;
 min-width: 1000px;
 z-index:-10;
 zoom: 1;
-  background-image: url(https://img.moegirl.org.cn/common/7/71/And_I%27m_home.jpg);
+  background-image: url();
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center 0;
