@@ -37,6 +37,7 @@ MathJax.Hub.Config({
 - <a href="https://senyuyangpdelearner.github.io/rambling3.14/" target="_blank">杂记3.14: bootstrap method</a>&ensp;<font size="2">2024.3.8</font> <br/>
 - ($\pi$ day)<a href="https://senyuyangpdelearner.github.io/rambling3.141/" target="_blank">杂记3.141: Cauchy积分定理的一个优雅证明</a>&ensp;<font size="2">2024.3.14</font> <br/>
 - <a href="https://senyuyangpdelearner.github.io/article3/" target="_blank">调和分析：Littlewood-Paley定理的随机化证明</a>&ensp;<font size="2">2024.5.12</font> <br/>
+- <a href="https://senyuyangpdelearner.github.io/rambling3.1415/" target="_blank">杂记3.1415: 一个代拓笑话和不定期更新期末试题</a>&ensp;<font size="2">2024.6.4</font> <br/>
 - <font color="grey">To be released...</font>
 
 <br/>
