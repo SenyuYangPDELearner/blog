@@ -41,4 +41,4 @@ MathJax.Hub.Config({
 - <font color="grey">To be released...</font>
 
 <br/>
-[少女祈祷中...](https://SenyuYangPDELearner.github.io/blog/)
+[少女祈祷中...](https://SenyuYangPDELearner.github.io/)
