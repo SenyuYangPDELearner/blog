@@ -31,7 +31,7 @@ MathJax.Hub.Config({
 这里，<font color="Pink">奇迹</font>和<font color="Purple">魔法</font>都是存在的！请不紧不慢地补完吧~
 
 - <font color="grey">More to be released...</font>
-- [杂记3.1415: 一个代拓笑话和一篇读书笔记](https://senyuyangpdelearner.github.io/rambling3.1415/)&ensp;<font size="2">2024.6.4</font> <br/>
+- [杂记3.1415: 一个代拓笑话和Hodge定理笔记](https://senyuyangpdelearner.github.io/rambling3.1415/)&ensp;<font size="2">2024.6.4</font> <br/>
 - [调和分析：Littlewood-Paley定理的随机化证明](https://senyuyangpdelearner.github.io/article3/)&ensp;<font size="2">2024.5.12</font> <br/>
 - ($\pi$ day)[杂记3.141: Cauchy积分定理的一个优雅证明](https://senyuyangpdelearner.github.io/rambling3.141/)&ensp;<font size="2">2024.3.14</font> <br/>
 - [杂记3.14: bootstrap method(baby ver.)](https://senyuyangpdelearner.github.io/rambling3.14/)&ensp;<font size="2">2024.3.8</font> <br/>
