@@ -30,7 +30,7 @@ MathJax.Hub.Config({
 
 这里，<font color="Pink">奇迹</font>和<font color="Purple">魔法</font>都是存在的！请不紧不慢地补完吧~
 
-- <font color="grey">More to be released...</font>
+- <font color="grey">To be released...</font>
 
 - [杂记3.1415: 一个代拓笑话和Hodge定理笔记](https://senyuyangpdelearner.github.io/rambling3.1415/)&ensp;<font size="2">2024.6.4</font> <br/>
 
