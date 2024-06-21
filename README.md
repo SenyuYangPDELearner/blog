@@ -50,3 +50,6 @@ MathJax.Hub.Config({
 
 <br/>
 [少女祈祷中...](https://SenyuYangPDELearner.github.io/)
+
+<hr style="height:0.5">
+<font size="2" color="grey">&copy;SenyuYangPDElearner</font>
