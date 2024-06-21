@@ -1,2 +1,3 @@
 markdown: kramdown
+include: README.md
 title: 拾数集 | Math Blog
