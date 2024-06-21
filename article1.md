@@ -71,10 +71,8 @@ $$
 综上述，一定存在一个$F_i$包含一对对径点.  $\Box$
 <br/>
 
-让我们回到原来的问题. 只需注意到每个点光源照亮的区域确实是一个闭集，而且**不可能包含一对对径点**，我们就可以轻松地反证：$n=3$的情形无法照亮整个球面！$n=1,2$可以同样地证明，请读者自己尝试. 至此我们运用拓扑的魔法给出了问题的另一个证明(^^
+让我们回到原来的问题. 只需注意到每个点光源照亮的区域确实是一个闭集，而且**不可能包含一对对径点**，我们就可以轻松地反证：$n=3$的情形无法照亮整个球面！$n=1,2$可以同样地证明，请读者自此我们运用拓扑的魔法给出了问题的另一个证明^^
 
-<br/>
-[少女祈祷中...](https://senyuyangpdelearner.github.io/blog)
+<hr style="height:1px">
 
-<hr style="height:0.5">
-<font size="2" color="grey">&copy;SenyuYangPDElearner</font>
+&copy; Senyu Yang&emsp;&emsp;&emsp;<a href="." target="_self" >少女祈祷中...</a>
