@@ -28,6 +28,8 @@ zoom: 1;
 </head>
 <div class="bjimg"></div>
 
+# Cauchy积分定理的一个优雅证明
+
 <font size="2" color="grey">发布于2024.3.14</font><br/>
 今天是国际数学日，先祝你 $\pi$ day 快乐！数学当然离不开优雅，*Beauty is the first test*(Hardy). 复分析是数学中最优美的分支之一，那么本文介绍复分析的基本定理——Cauchy定理的一个灰常灰常优雅滴几何风证明.
 
