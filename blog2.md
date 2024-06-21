@@ -157,12 +157,10 @@ $$
 
 至此我们用多项式的魔法再现了Dvir的奇迹. 值得补充的是，这个简洁高效的证明并没有使得过去Bourgain, Tao的工作黯然失色. 他们引入的大量工具和思想(主要来自调和分析和算术组合)同样深刻地影响了多个领域的未来. **数学研究不仅为了解决问题，更要让人对事物有更好的了解.** 另外有一段小历史：Dvir最开始的证明也没有完全解决猜想——下界只有$c_nq^{n-1}$，后来经Alon(极值组合学的泰斗)和Tao(陶哲轩)的修改才彻底完成. 两位负有盛名的学者也慷慨地让出论文署名权，二人的名字只出现在致谢中.
 
-<hr style="height:0.5">
+<hr style="height:1px">
 
 更正：经一位朋友提醒，Dvir的证明已经被收入*The Proof from the Book*（中译本《数学天书中的证明》）第五版，所以导言部分“堪称proof from the book”已经过时了(笑)
 
-<br/>
-[少女祈祷中...](https://senyuyangpdelearner.github.io/blog)
+<hr style="height:1px">
 
-<hr style="height:0.5">
-<font size="2" color="grey">&copy;SenyuYangPDElearner</font>
+&copy; Senyu Yang&emsp;&emsp;&emsp;<a href="." target="_self" >少女祈祷中...</a>
