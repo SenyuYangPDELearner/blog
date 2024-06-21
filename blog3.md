@@ -76,4 +76,4 @@ $$
 (如果直接把定理结论作为条件$(B)$证明会出现什么问题?
 
 <hr style="height:0.5">
-<font color="grey" size=2>&copy; Senyu Yang</font>  <font size=2>少女祈祷中...</font>
+<font color="grey" size=2>&copy; Senyu Yang</font>  <a href="." target="_self" size=2>少女祈祷中...</a>
