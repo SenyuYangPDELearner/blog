@@ -31,7 +31,6 @@ MathJax.Hub.Config({
 # 杂记1：Bootstrap Method(baby ver.)
 
 <font size=2 color="grey">2024.3.8</font> <br/>
-
 *<font size=2 color="grey" >因为要写作业写论文所以没想到什么好topic但是可以水几句不然博客没有一篇分析方向文章太不像PDE废柴了</font>*<br/>
 
 以下是广为人知当然也无处不在的**Grownwall不等式**(没有她可能会饿死很多PDE人罢233
@@ -77,4 +76,4 @@ $$
 (如果直接把定理结论作为条件$(B)$证明会出现什么问题?
 
 <hr style="height:0.5">
-<font color="grey" size=2>&copy;SenyuYangPDELearner</font>&emsp;[<font size=2>少女祈祷中...</font>](https://senyuyangpdelearner.github.io/blog)
+<font color="grey" size=2>&copy;Senyu Yang</font>&emsp;[<font size=2>少女祈祷中...</font>](https://senyuyangpdelearner.github.io/blog)
