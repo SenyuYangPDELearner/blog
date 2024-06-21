@@ -42,9 +42,6 @@ MathJax.Hub.Config({
 
 - (创刊)[张灯结彩：照亮球的外表面需要多少盏灯](./blog1)&ensp;<font size="2">2024.2.12</font> <br/>
 
-<br/>
-[少女祈祷中...](https://SenyuYangPDELearner.github.io/)
-
 <hr style="height:1px">
 
-&copy; Senyu Yang
+&copy; Senyu Yang&emsp;&emsp;&emsp;<a href="https://senyuyangpdelearner.github.io" target="_self" >少女祈祷中...</a>
