@@ -28,7 +28,7 @@ MathJax.Hub.Config({
 </head>
 <div class="bjimg"></div>
 
-# 杂记1：Bootstrap Method(baby ver.)
+# Bootstrap Method(baby ver.)
 
 <font size=2 color="grey">2024.3.8</font> <br/>
 *<font size=2 color="grey" >因为要写作业写论文所以没想到什么好topic但是可以水几句不然博客没有一篇分析方向文章太不像PDE废柴了</font>*<br/>
