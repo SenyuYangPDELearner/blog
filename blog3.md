@@ -77,4 +77,4 @@ $$
 
 <hr style="height:0.5">
 
-<font color="grey" >&copy; Senyu Yang</font>  <a href="." target="_self" >少女祈祷中...</a>
+<nobr color="grey" >&copy; Senyu Yang</nobr>  <a href="." target="_self" >少女祈祷中...</a>
