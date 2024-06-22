@@ -142,7 +142,11 @@ $$
 上界得证. 对于下界，首先注意到$p=2$时左右两式恒等：
 
 $$
-\mathbb{E}\left|\sum_{j = 1}^{N}r_{j}a_{j}\right|^{2} = \mathbb{E}\left[\sum_{j,k}r_{j}r_{k}a_{j}a_{k}\right] = \sum_{j = 1}^{N}|a_{j}|^{2} = 1
+\mathbb{E}\left|\sum_{j = 1}^{N}r_{j}a_{j}\right|^{2} = \mathbb{E}\left[\sum_{j,k}r_{j}r_{k}a_{j}a_{k}\right] 
+$$
+
+$$
+= \sum_{j = 1}^{N}|a_{j}|^{2} = 1
 $$
 
 于是由概率空间的有限测度性和Hölder不等式可知
