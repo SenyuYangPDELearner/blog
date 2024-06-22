@@ -84,7 +84,10 @@ $$
 >**引理2.** 给定任意正整数$N$ 与$\\{ a_j \\}_{j=1}^N\subset \mathbb{R}$，则对任意$\lambda>0$有
 >
 >$$
- \mathbb{P}\left[ \left\vert \sum_{j=1}^{n}r_ja_j\right\vert >\lambda\left(\sum_{j=1}^{N}  a_j^2\right)^{1/2}\right]\leq 2e^{-\lambda^2/2}
+ \mathbb{P}\left[ \left\vert \sum_{j=1}^{n}r_ja_j\right\vert >\lambda\left(\sum_{j=1}^{N}  a_j^2\right)^{1/2}\right]
+>
+>$$
+\leq 2e^{-\lambda^2/2}
 $$
 
 *证明*. 令随机变量$S_N=\sum_{j=1}^{N}r_ja_j$，$\sigma^2=\sum_{j=1}^{N}a_j^2$，则对任意$t\in\mathbb{R}$，
@@ -102,7 +105,11 @@ $$
 由Markov不等式，
 
 $$
-\mathbb{P}[S_N>\lambda\sigma]=\mathbb{P}[e^{tS_N}>e^{t\lambda\sigma}]\leq e^{t^2\sigma^2/2-t\lambda\sigma}.
+\mathbb{P}[S_N>\lambda\sigma]=\mathbb{P}[e^{tS_N}>e^{t\lambda\sigma}]
+$$
+
+$$
+\leq e^{t^2\sigma^2/2-t\lambda\sigma}.
 $$
 
 令$t=\lambda/\sigma$，右式即取得最小值$e^{-\lambda^2/2}$，注意到这里出现Gauss函数和CLT的关系. 同理可得$\mathbb{P}[S_N<-\lambda\sigma]\leq e^{-\lambda^2/2}$，所以
@@ -124,7 +131,11 @@ $$
 *证明*. 不妨作正规化：$\sigma^2=1$. 计算得
 
 $$
-\mathbb{E}\vert S_N\vert^p = p\int_{0}^{\infty} \lambda^{p-1}\mathbb{P}[S_N>\lambda\cdot 1]=:C_p<\infty. 
+\mathbb{E}\vert S_N\vert^p = p\int_{0}^{\infty} \lambda^{p-1}\mathbb{P}[S_N>\lambda\cdot 1]
+$$
+
+$$
+=:C_p<\infty. 
 $$
 
 上界得证. 对于下界，首先注意到$p=2$时左右两式恒等：
@@ -146,7 +157,11 @@ $$
 所以$p\geq 2$的情形已得证. 当$p<2$时，我们采用经典的对偶论证(duality argument). 由Hölder不等式有
 
 $$
-\left(\mathbb{E}\left|\sum_{j = 1}^{N}r_{j}a_{j}\right|^{p}\right)^{1/p}\left(\mathbb{E}\left|\sum_{j = 1}^{N}r_{j}a_{j}\right|^{p'}\right)^{1/p'}\geq \left(\mathbb{E}\left|\sum_{j = 1}^{N}r_{j}a_{j}\right|^{2}\right)=1.
+\left(\mathbb{E}\left|\sum_{j = 1}^{N}r_{j}a_{j}\right|^{p}\right)^{1/p}\left(\mathbb{E}\left|\sum_{j =1}^{N}r_{j}a_{j}\right|^{p'}\right)^{1/p'}
+$$
+
+$$
+\geq \left(\mathbb{E}\left|\sum_{j =1}^{N}r_{j}a_{j}\right|^{2}\right)=1.
 $$
 
 其中$1/p+1/p'=1, p'>2$. 再对$p'$项作上界估计即可.&emsp;&emsp;$\Box$
@@ -188,7 +203,15 @@ $$
 满足Mikhlin乘子定理的条件，而且常数系数关于$r_j$和$N$一致有界. 于是由引理2和乘子定理，
 
 $$
-\int_{\mathbb{R}^n} \vert Sf\vert^p\lesssim \limsup_{N\to \infty} \mathbb{E} \left[ \int_{\mathbb{R}^n}\vert \sum_{j=-N}^{N}r_j\Delta_jf\vert^p \right]\lesssim_p \Vert f\Vert_{L^p}^p, 
+\int_{\mathbb{R}^n} \vert Sf\vert^p
+$$
+
+$$
+\lesssim \limsup_{N\to \infty} \mathbb{E} \left[ \int_{\mathbb{R}^n}\vert \sum_{j=-N}^{N}r_j\Delta_jf\vert^p \right]
+$$
+
+$$
+\lesssim_p \Vert f\Vert_{L^p}^p, 
 $$
 
 上界估计得证. 下界估计依然由对偶论证得到：一个细节是由于L-P分解不是完全正交的分解，这里我们还需要取另一个支集“稍宽”的$\tilde{\psi}\in C_0^{\infty}$，并定义相应的频率局部化算子$\tilde{\Delta}_j$使得
