@@ -85,6 +85,7 @@ $$
 >
 >$$
  \mathbb{P}\left[ \left\vert \sum_{j=1}^{n}r_ja_j\right\vert >\lambda\left(\sum_{j=1}^{N}  a_j^2\right)^{1/2}\right]
+$$
 >
 >$$
 \leq 2e^{-\lambda^2/2}
