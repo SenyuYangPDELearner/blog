@@ -73,9 +73,6 @@ $f$解析，所以上式第一行恒为$0$. 令$r\to 0$，则最后一项收敛�
 
 *注*. 如果只要求$\partial \Omega$可求长，可以用一族$C^1$曲线从$\Omega$内部逼近$\partial \Omega$即可.
 
-<br/>
-[少女祈祷中...](https://senyuyangpdelearner.github.io/blog)
-
 <hr style="height:1px">
 
-&copy; Senyu Yang&emsp;&emsp;&emsp;<a href="." target="_self" >少女祈祷中...</a>
+&copy; Senyu Yang&emsp;<a href="." target="_self" >少女祈祷中...</a>
