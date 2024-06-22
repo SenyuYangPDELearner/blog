@@ -33,7 +33,7 @@ MathJax.Hub.Config({
 <font size=2 color="grey">2024.3.8</font> <br/>
 *<font size=2 color="grey" >因为要写作业写论文所以没想到什么好topic但是可以水几句不然博客没有一篇分析方向文章太不像PDE废柴了</font>*<br/>
 
-以下是广为人知的**Grownwall不等式**(没有她可能会饿死很多PDE人罢233
+以下是广为人知的**Grownwall不等式**，没有她可能会饿死很多PDE人罢（笑）
 
 > **定理.** 设连续函数$f:\mathbb{R}\to\mathbb{R}$，可积函数$g:\mathbb{R}\to\mathbb{R}$均恒正. 如果存在$A\geq 0$，对任意$t\in[0,T]$满足
 >
