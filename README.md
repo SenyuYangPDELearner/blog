@@ -44,4 +44,4 @@ MathJax.Hub.Config({
 
 <hr style="height:1px">
 
-&copy; Senyu Yang&emsp;&emsp;&emsp;<a href="https://senyuyangpdelearner.github.io" target="_self" >少女祈祷中...</a>
+&copy; Senyu Yang&emsp;<a href="https://senyuyangpdelearner.github.io" target="_self" >少女祈祷中...</a>
