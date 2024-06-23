@@ -261,4 +261,4 @@ $$
 
 <hr style="height:1px">
 
-&copy; Senyu Yang&emsp;<a href="." target="_self" >少女祈祷中...</a>
+&copy; Senyu Yang&emsp;<a href="." target="_self" >Next Dream...</a>
