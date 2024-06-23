@@ -75,4 +75,4 @@ $f$解析，所以上式第一行恒为$0$. 令$r\to 0$，则最后一项收敛�
 
 <hr style="height:1px">
 
-&copy; Senyu Yang&emsp;<a href="." target="_self" >少女祈祷中...</a>
+&copy; Senyu Yang&emsp;<a href="." target="_self" >Next Dream...</a>
