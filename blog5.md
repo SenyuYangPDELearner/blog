@@ -28,7 +28,7 @@ zoom: 1;
 </head>
 <div class="bjimg"></div>
 
-# 调和分析：Littlewood-Paley定理的随机化证明
+# Littlewood-Paley定理的随机化证明
 
 <font size="2" color="grey">2024.5.12</font><br/>
 收到预录取通知啦，终于有时间记点东西(但还是鸽了半个月). Littlewood-Paley定理等频率分解技术是调和分析，PDE等领域中的重要工具. L-P定理的传统证明基于向量值的奇异积分算子，而在上星期的波方程讨论班上笔者提到一个基于随机化(randomization technique)思想的美妙证明，在此详细介绍一下. 文章主要参考W. Schlag的[讲义](https://gauss.math.yale.edu/~ws442/harmonicnotes_old.pdf).
