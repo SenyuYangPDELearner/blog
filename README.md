@@ -30,7 +30,7 @@ MathJax.Hub.Config({
 
 这里是YSY的数学博客，<font color="Pink">奇迹</font>和<font color="Purple">魔法</font>都是存在的！
 
-- <font color="grey">To be released...</font>
+- Bourgain的数学：一个Szemerédi型定理的Fourier证明&ensp;<font color="grey" size=2>To be released...</font>
 
 - [调和分析：Littlewood-Paley定理的随机化证明](./blog5)&ensp;<font size="2">2024.5.12</font> <br/>
 
