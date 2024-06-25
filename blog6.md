@@ -35,7 +35,7 @@ zoom: 1;
 
 今天介绍Bourgain在1986基于Fourier分析对Furstenberg等人关于正密度集的Szemerédi型定理的证明. 主要参考了一下文献：<br>
 &emsp;[1] J.  Bourgain, *A Szemerédi type theorem for sets of positive density in R^k* <br>
-&emap;[2] T. Tao, *Exploring the toolkit of Jean Bourgain*<br/>
+&emsp;[2] T. Tao, *Exploring the toolkit of Jean Bourgain*<br/>
 
 我们先介绍主要结果. 
 
