@@ -32,13 +32,13 @@ MathJax.Hub.Config({
 
 - Bourgain的数学：一个Szemerédi型定理的Fourier证明&ensp;<font color="grey" size=2>To be released...</font>
 
-- [调和分析：Littlewood-Paley定理的随机化证明](./blog5)&ensp;<font size="2">2024.5.12</font> <br/>
+- [Littlewood-Paley定理的随机化证明](./blog5)&ensp;<font size="2">2024.5.12</font> <br/>
 
-- ($\pi$ day)[Cauchy积分定理的一个优雅证明](./blog4)&ensp;<font size="2">2024.3.14</font> <br/>
+- ($\pi$ day)[Cauchy积分定理的几何风证明](./blog4)&ensp;<font size="2">2024.3.14</font> <br/>
 
 - [Bootstrap Method(baby ver.)](./blog3)&ensp;<font size="2">2024.3.8</font> <br/>
 
-- [组合学的多项式方法：有限域Kakeya猜想](./blog2)&ensp;<font size="2">2024.2.19</font> <br/>
+- [多项式方法与有限域Kakeya猜想](./blog2)&ensp;<font size="2">2024.2.19</font> <br/>
 
 - (创刊)[照亮球的外表面需要多少盏灯](./blog1)&ensp;<font size="2">2024.2.12</font> <br/>
 
