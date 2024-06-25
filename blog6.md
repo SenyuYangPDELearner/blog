@@ -42,7 +42,7 @@ zoom: 1;
 >**定理1.**(Furstenberg, Katznelson, Weiss) 设可测集 $A\subset R^2$ 有上界密度 $\delta=\delta(A)\>0$ , 则存在 $l_0\>0$ s.t. 对*任意* $l\geq l_0$ , 存在 $x,y\in A$ , $\vert x-y\vert =l$ . 这里上界密度
 >
 >$$
-\delta(A)=\limsup_{R\to +\infty} \frac{\vert A\cap B_R \vert}{\vert B_R\vert}, 
+\delta(A):=\limsup_{R\to +\infty} \frac{\vert A\cap B_R \vert}{\vert B_R\vert}, 
 $$
 >
 >$\vert \cdot\vert$ 是Lebesgue测度，$B_R$ 是原点为中心，$R$ 为半径的圆盘.
