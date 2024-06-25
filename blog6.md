@@ -31,9 +31,9 @@ zoom: 1;
 # Bourgain的数学：一个Szemerédi型定理的Fourier证明
 
 <font size="2" color="grey">2024.6.xx</font><br/>
-*按：Jean Bourgain绝对属于当代最富创造力的一批数学家，在一众领域留下了不胜数的成果和洞见. 也许每个分析学工作者都会在生命的某个阶段遇见Bourgain的工作和思想. 笔者第一次知道他是在T. Tao的纪念文章 "Exploring the toolkit of Jean Bourgain"，后来又接触到他在色散PDE的部分工作，惊叹不已. 于是博客开启一个(不定期)连载系列，记录Bourgain的分析魔法.*<br/>
+*按：Jean Bourgain(1954-2018)绝对属于当代最富创造力的一批数学家，在诸多领域留下不胜数的成果和洞见. 也许每个分析学工作者都会在生命的某个阶段遇见Bourgain的工作或思想. 笔者第一次知道他是在T. Tao的纪念文章 "Exploring the toolkit of Jean Bourgain"，后来又接触到他在色散PDE的部分工作，惊叹不已. 于是开启一个(不定期)连载系列，记录Bourgain的分析魔法.*<br/>
 
-今天介绍Bourgain在1986基于Fourier分析对Furstenberg等人关于正密度集的Szemerédi型定理的证明. 主要参考了一下文献：<br>
+今天介绍Bourgain在1986年基于Fourier分析对Furstenberg等人关于正密度集的Szemerédi型定理的证明，从中可以感受到调和分析在组合学中的威力. 笔者主要参考了以下文献：<br>
 &emsp;[1] J.  Bourgain, *A Szemerédi type theorem for sets of positive density in R^k* <br>
 &emsp;[2] T. Tao, *Exploring the toolkit of Jean Bourgain*<br/>
 
