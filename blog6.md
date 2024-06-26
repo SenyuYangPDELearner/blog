@@ -51,6 +51,7 @@ $$
 
 >**定理2.**(Bourgain) 设可测集 $B\subset [0,1]^2$ , $\vert A\vert\geq \delta\>0$ . 则存在充分小的 $t_1$ 和充分大的 $J$，使得对分划$0\<t_J\<t_{J-1}\<...\<t_1\<1$ s.t. $t_{j+1}\leq t_j/2$ ，存在有 $1\leq j\leq J$ , 
 >
+
 $$
 \int_{\mathbb{R}^2}\int_{S^1} 1_A(x) 1_A(x+t_j\omega) \ d\sigma(\omega)dx \gtrsim \delta^2. \tag{1}
 $$
