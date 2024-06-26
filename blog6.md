@@ -51,17 +51,16 @@ $$
 
 >**定理2.**(Bourgain) 设可测集 $B\subset [0,1]^2$ , $\vert A\vert\geq \delta\>0$ . 则存在充分小的 $t_1$ 和充分大的 $J$，使得对分划$0\<t_J\<t_{J-1}\<...\<t_1\<1$ s.t. $t_{j+1}\leq t_j/2$ ，存在有 $1\leq j\leq J$ , 
 >
-
 $$
-\int_{\mathbb{R}^2}\int_{S^1} 1_A(x) 1_A(x+t_j\omega) \ d\sigma(\omega)dx \gtrsim \delta^2. \tag{1}
+I:=\int_{\mathbb{R}^2}\int_{S^1} 1_A(x) 1_A(x+t_j\omega) \ d\sigma(\omega)dx \gtrsim \delta^2.
 $$
 
-*定理2 $\Rightarrow$ 定理1*. 假设定理1不成立，则存在 $0<l_1<l_2<...<l_J<...$ s.t. $\vert x-y\vert\neq l_k, \forall x,y \in  A, k\in\mathbb{N}$ . WLOG, 设 $l_{k+1}\geq 2l_{k}$ . 由上界密度定义，存在 $R>t_J$ s.t. $\vert A\cap B_R\vert\geq \delta R^2$ . 令 $B:= \frac{1}{R}\cdot A\subset [0,1]^2$ ,  $t_j=l_{J+1-j}/R$ , 则 $B$ 符合定理2条件，但根据假设，对任意 $1\leq j\leq J$ , $(1)$ 恒为 $0$ , 矛盾 ！因此定理2就是定理1的定量化. &emsp; $\Box$ <br/>
+*定理2 $\Rightarrow$ 定理1*. 假设定理1不成立，则存在 $0<l_1<l_2<...<l_J<...$ s.t. $\vert x-y\vert\neq l_k, \forall x,y \in  A, k\in\mathbb{N}$ . WLOG, 设 $l_{k+1}\geq 2l_{k}$ . 由上界密度定义，存在 $R>t_J$ s.t. $\vert A\cap B_R\vert\geq \delta R^2$ . 令 $B:= \frac{1}{R}\cdot A\subset [0,1]^2$ ,  $t_j=l_{J+1-j}/R$ , 则 $B$ 符合定理2条件，但根据假设，对任意 $1\leq j\leq J$ , $I$ 恒为 $0$ , 矛盾 ！因此定理2就是定理1的定量化. &emsp; $\Box$ <br/>
 
 下面着手定理2的证明. 由Plancherel定理我们变换到频率空间上，
 
 $$
-\int_{\mathbb{R}^2}\int_{S^1} \widehat{1_A}(x) \widehat{1_A}(x+t_j\omega) \,d\sigma(\omega)dx
+I=\int_{\mathbb{R}^2}\int_{S^1} \widehat{1_A}(x) \widehat{1_A}(x+t_j\omega) \,d\sigma(\omega)dx
 $$  
 
 $$
@@ -69,7 +68,7 @@ $$
 $$
 
 $$
-=\int_{\mathbb{R}^2} \vert \widehat{1_A}(\xi)\vert^2 \widehat{\sigma}(t_j\xi) \,d\xi. \tag{2}
+=\int_{\mathbb{R}^2} \vert \widehat{1_A}(\xi)\vert^2 \widehat{\sigma}(t_j\xi) \,d\xi. 
 $$
 
 接下来非常标准地做频率分解：
