@@ -49,7 +49,7 @@ $$
 
 粗略地说，只要集合在平面上足够"稠密"，那么集合中所有点对的距离取遍充分大的正实数. Bourgain证明的第一步是将结论定量化( quantitative formulation )，以便硬分析工具的介入. 
 
->**定理2.**(Bourgain) 设可测集 $B\subset [0,1]^2$ , $\vert A\vert\geq \delta\>0$ . 则存在充分小的 $t_1$ 和充分大的 $J$，使得对分划$0\<t_J\<t_{J-1}\<...\<t_1\<1$ s.t. $t_{j+1}\leq t_j/2$ ，存在有 $1\leq j\leq J$ , 
+>**定理2.**(Bourgain) 设可测集 $A\subset [0,1]^2$ , $\vert A\vert\geq \delta\>0$ . 则存在充分小的 $t_1$ 和充分大的 $J$，使得对分划$0\<t_J\<t_{J-1}\<...\<t_1\<1$ s.t. $t_{j+1}\leq t_j/2$ ，存在有 $1\leq j\leq J$ , 
 >
 $$
 I:=\int_{\mathbb{R}^2}\int_{S^1} 1_A(x) 1_A(x+t_j\omega) \ d\sigma(\omega)dx
