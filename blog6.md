@@ -64,7 +64,7 @@ $$
 下面着手定理2的证明. 由Plancherel定理我们变换到频率空间上，
 
 $$
-I=\int_{\mathbb{R}^2}\int_{S^1} \widehat{1_A}(x) \widehat{1_A}(x+t_j\omega) \,d\sigma(\omega)dx
+\int_{\mathbb{R}^2}\int_{S^1} \widehat{1_A}(x) \widehat{1_A}(x+t_j\omega) \,d\sigma(\omega)dx
 $$  
 
 $$
@@ -83,7 +83,7 @@ $$
 
 - 中间项 $\epsilon t_j^{-1}\< \vert \xi\vert\< (\epsilon t_j)^{-1}$ : 
 
-综上，存在充分小的 $\epsilon$ s.t. $(2)\geq C\vert A\vert^2-\epsilon^{1/2}\vert A\vert-\epsilon^1\vert A\vert \gtrsim \delta^2$ . Bourgain的魔法奏效了！&emsp; $\Box$
+综上，存在充分小的 $\epsilon$ s.t. $I\geq C\vert A\vert^2-\epsilon^{1/2}\vert A\vert-\epsilon^1\vert A\vert \gtrsim \delta^2$ . Bourgain的魔法奏效了！&emsp; $\Box$
 
 <hr style="height:1px">
 
