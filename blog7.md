@@ -90,15 +90,15 @@ $$
 $$
 
 $$
-=\int_{\mathbb{R}\times\mathbb{R}^n} \mathcal{F}_x\left[g\right](t,\xi)\left[ \widehat{u}\star_{\xi}\widehat{v} \right](t, \xi) \ d\xi dt
+=\int_{\mathbb{R}\times\mathbb{R}^n} \mathcal{F}_x\left[ g\right] (t,\xi)\left[ \widehat{u}\star_{\xi}\widehat{v} \right](t, \xi) \ d\xi dt
 $$
 
 $$
-=\int_{\mathbb{R}\times\mathbb{R}^n\times\mathbb{R}^n} \mathcal{F}_x\left[ g \right](t,\xi)e^{it(\vert \eta\vert^2+\vert \xi-\eta\vert^2)} \widehat{u_0}(\eta)\widehat{v_0}(\xi-\eta) \ d\eta d\xi dt
+=\int_{\mathbb{R}\times\mathbb{R}^n\times\mathbb{R}^n} \mathcal{F}_x\left[ g \right] (t,\xi)e^{it(\vert \eta\vert^2+\vert \xi-\eta\vert^2)} \widehat{u_0}(\eta)\widehat{v_0}(\xi-\eta) \ d\eta d\xi dt
 $$
 
 $$
-=\int_{\mathbb{R}\times\mathbb{R}^n\times\mathbb{R}^n} \mathcal{F}_x \left[ g \right](t,\xi_1+\xi_2)e^{it(\vert \xi_1\vert^2+\vert \xi_2\vert^2)} \widehat{u_0}(\xi_1)\widehat{v_0}(\xi_2) \ d\xi_1 d\xi_2 dt
+=\int_{\mathbb{R}\times\mathbb{R}^n\times\mathbb{R}^n} \mathcal{F}_x \left[ g \right] (t,\xi_1+\xi_2)e^{it(\vert \xi_1\vert^2+\vert \xi_2\vert^2)} \widehat{u_0}(\xi_1)\widehat{v_0}(\xi_2) \ d\xi_1 d\xi_2 dt
 $$
 
 $$
@@ -133,7 +133,7 @@ $$
 
 而 $\Vert uv\Vert_{L_t^2L_x^2} \leq \Vert u\Vert_{L_t^4L_x^4} \Vert v\Vert_{L_t^4L_x^4}$ , 由普通的Strichartz估计即得证. (注意这里使用了 $n\geq 2\Rightarrow s'\geq 0$ , 所以丘赛题作为 $n=1$ 情形必须要求初值的频率是seperate) <br>
 
-&emsp; *Step 3.* 现在只需考虑频率**seperate**的情形：$\vert\xi_1\vert > The4\vert\xi_2\vert$ .
+&emsp; *Step 3.* 现在只需考虑频率**seperate**的情形：$\vert\xi_1\vert > 4\vert\xi_2\vert$ .
 
 <hr style="height=1px">
 
