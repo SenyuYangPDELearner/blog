@@ -67,14 +67,73 @@ $$
 
 首先叙述Bourgain的结果. ~~由于笔者偷懒的缘故~~我们只考虑齐次情形.
 
-
 >**定理1.**(Bourgain) 设 $n\geq 2$ , $u(t,x):=e^{it\Delta}u_0(x), v(t,x):=e^{it\Delta}v_0(x)$ . 则对任意 $\delta>0$ , 
 >
 $$
 \Vert uv\Vert_{L_t^2L_x^2}\lesssim_{\delta} \Vert u_0\Vert_{\dot{H}^{-\frac{1}{2}+\delta}} \Vert v_0\Vert_{\dot{H}^{\frac{n-1}{2}-\delta}}
 $$
 
-Bourgain的估计
+记 $s_1=-\frac{1}{2}+\delta$ , $s_2=\frac{n-1}{2}-\delta$ , $s_1+s_2=\frac{n}{2}-1$ . 由对称性，不妨设 $s_1\leq s_2$ , 这时Bourgain的估计对于高频的 $u$ 和低频的 $v$ 非常有用(这里会让人联想Bony仿积分解)，[2] 作如此评论：*This estimate shows in particular that there is little interaction between high and low frequencies*. <br/>
+
+*证明*. 我们分为以下几步. <br> 
+
+&emsp; *Step 1*. 根据对偶性，只需证明对任意 $g\in L^2(\mathbb{R}\times\mathbb{R}^n)$ , 
+
+$$
+\int_{\mathbb{R}\times\mathbb{R}^n} g(t,x)\cdot u(t,x)v(t,x) \ dxdt\lesssim \Vert g\Vert_{L^2(\mathbb{R}\times\mathbb{R}^n)} \Vert u_0\Vert_{\dot{H}^{s_1}} \Vert v_0\Vert_{\dot{H}^{s_2}}.
+$$
+
+先关于 $x$ 作Fourier变换，用Plancherel定理，再关于 $t$ 作Fourier变换，
+
+$$
+\int_{\mathbb{R}\times\mathbb{R}^n} g(t,x)\cdot u(t,x)v(t,x) \ dxdt
+$$
+
+$$
+=\int_{\mathbb{R}\times\mathbb{R}^n} \mathcal{F}_x\left[g\right](t,\xi)\left[ \widehat{u}\star_{\xi}\widehat{v} \right](t, \xi) \ d\xi dt
+$$
+
+$$
+=\int_{\mathbb{R}\times\mathbb{R}^n\times\mathbb{R}^n} \mathcal{F}_x\left[ g \right](t,\xi)e^{it(\vert \eta\vert^2+\vert \xi-\eta\vert^2)} \widehat{u_0}(\eta)\widehat{v_0}(\xi-\eta) \ d\eta d\xi dt
+$$
+
+$$
+=\int_{\mathbb{R}\times\mathbb{R}^n\times\mathbb{R}^n} \mathcal{F}_x \left[ g \right](t,\xi_1+\xi_2)e^{it(\vert \xi_1\vert^2+\vert \xi_2\vert^2)} \widehat{u_0}(\xi_1)\widehat{v_0}(\xi_2) \ d\xi_1 d\xi_2 dt
+$$
+
+$$
+=\int_{\mathbb{R}^n\times\mathbb{R}^n} \widehat{g}(\vert\xi_1\vert^2+\vert\xi_2\vert^2,\xi_1+\xi_2) \widehat{u_0}(\xi_1)\widehat{v_0}(\xi_2) \ d\xi_1 d\xi_2.
+$$
+
+Fourier变换是 $L^2$ 上的等距同构，所以定理等价于：对任意 $g\in L^2(\mathbb{R}\times\mathbb{R}^n)$ , 
+
+$$
+\int_{\mathbb{R}^n\times\mathbb{R}^n} g(\vert\xi_1\vert^2+\vert\xi_2\vert^2,\xi_1+\xi_2) \widehat{u_0}(\xi_1)\widehat{v_0}(\xi_2) \ d\xi_1 d\xi_2
+$$
+
+$$
+\lesssim \Vert g\Vert_{L^2(\mathbb{R}\times\mathbb{R}^n)} \Vert u_0\Vert_{\dot{H}^{s_1}} \Vert v_0\Vert_{\dot{H}^{s_2}}.
+$$
+
+i.e.
+
+$$
+\int_{\mathbb{R}^n\times\mathbb{R}^n} g(\vert\xi_1\vert^2+\vert\xi_2\vert^2,\xi_1+\xi_2) \vert\xi_1\vert^{-s_1}\widehat{u_0}(\xi_1)\vert\xi_2\vert^{-s_2}\widehat{v_0}(\xi_2) \ d\xi_1 d\xi_2
+$$
+
+$$
+\lesssim \Vert g\Vert_{L^2(\mathbb{R}\times\mathbb{R}^n)} \Vert u_0\Vert_{L^2} \Vert v_0\Vert_{L^2}.
+$$
+
+&emsp; *Step 2*. 由 $s_1\leq s_2$ , 只需考虑频率 $\xi_1\geq \xi_2$ , 否则对 $I$ 乘以 $\vert\frac{\xi_2}{\xi_1}\vert^{s_2-s_1}\geq 1$ 即可. 进一步，当 $\vert \xi_1\vert 4\vert \xi_2\vert$ 时 i.e. 初值的频率是**comparable**: $\vert\xi_1\vert \sim \vert \xi_2\vert$ , 则可以调整 $s_1, s_2$ s.t. $s_1=s_2=s'=\frac{n-4}{2}$ , 于是再由对偶性，估计成立等价于
+
+$$
+\Vert uv\Vert_{L_t^2L_x^2}\lesssim \Vert u_0\Vert_{\dot{H}^{s'}} \Vert v_0\Vert_{\dot{H}^{s'}}.  
+$$
+
+而 $\Vert uv\Vert_{L_t^2L_x^2} \leq \Vert u\Vert_{L_t^4L_x^4} \Vert v\Vert_{L_t^4L_x^4}$ , 由普通的Strichartz估计即得证. (注意这里使用了 $n\geq 2\Rightarrow s'\geq 0$ , 所以丘赛题作为 $n=1$ 情形必须要求初值的频率是seperate) <br>
+
+&emsp; *Step 3.* 现在只需考虑频率**seperate**的情形：$\vert\xi_1\vert \geq 4\vert\xi_2\vert$ .
 
 <hr style="height=1px”>
 
