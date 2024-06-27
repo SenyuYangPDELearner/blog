@@ -30,7 +30,7 @@ zoom: 1;
 
 # Bourgain的魔法：一道丘赛题与双线性Strichartz估计
 
-<font size="2" color="grey">xxxx.xx.xx </font><br/>
+<font size="2" color="grey">2024.6.xx </font><br/>
 *按：Jean Bourgain(1954-20180)绝对属于当代最富创造力的一批数学家，在诸多领域留下不胜数的成果和洞见. 也许每个分析学工作者都会在生命的某个阶段接触Bourgain的工作或思想. 这里是一个(不定期)连载系列，记录Bourgain的数学魔法.*
 
 今年丘赛~~调和~~分析与~~偏~~微分方程方向笔试第三题出现了一个限制性Fourier变换的乘积估计. 还蛮希望丘赛往后可以多出些这类别开生面的问题~~毕竟是本PDE民工排名最高的一次~~（笑）
@@ -61,7 +61,7 @@ $$
 
 的Cauchy问题解 $u_1, u_2$ 的双线性Strichartz估计，其中初值的频率 $\psi f_1, \psi(10-\cdot )f_2$ 是分离的. S方程的解具有时间反演的对称性，于是时间 $t$ 可在整个 $\mathbb{R}$ 上取值. 所以笔者当时用Plancherel定理时是先对 $x_1$ 作Fourier变换，整理后再对 $x_2$ 作Fourier变换，一通换元就会得到 $\psi(\xi)f_1(\xi)\cdot \psi(10-\eta)f_2(\eta)$ 关于一个奇异项(换元时多出的Jacobi) $\vert \xi-\eta\vert$ 的积分，而恰好*频率的分离排除了奇点*，问题就解决了. 这些步骤我们在后面还会详细展开.<br/>
 
-而今天的主题就是问题的背景：Bourgain在 $[1]$ 关于Schrödinger方程得到的 **bilinear Strichartz estimates** . Bourgain的成果出现在丘赛题还是很让人惊喜的. 主要的参考文献有<br>
+而今天的主题就是问题的背景：Bourgain在[1]关于Schrödinger方程得到的 **bilinear Strichartz estimates** . Bourgain的成果出现在丘赛题还是很让人惊喜的. 主要的参考文献有<br>
 &emsp;[1] J. Bourgain, *Refinements of Strichartz inequality and applications to 2D-NLS with critical nonlinearity*.<br>
 &emsp;[2] J. Colliander, M. Keel, G. Staffilani, H. Takaoka, T, Tao, *The theory of nonlinear Schrödinger equations: part Ⅰ*.<br>
 
@@ -125,7 +125,7 @@ $$
 \lesssim \Vert g\Vert_{L^2(\mathbb{R}\times\mathbb{R}^n)} \Vert u_0\Vert_{L^2} \Vert v_0\Vert_{L^2}.
 $$
 
-&emsp; *Step 2*. 由 $s_1\leq s_2$ , 只需考虑频率 $\xi_1\geq \xi_2$ , 否则对 $I$ 乘以 $\vert\frac{\xi_2}{\xi_1}\vert^{s_2-s_1}\geq 1$ 即可. 进一步，当 $\vert \xi_1\vert 4\vert \xi_2\vert$ 时 i.e. 初值的频率是**comparable**: $\vert\xi_1\vert \sim \vert \xi_2\vert$ , 则可以调整 $s_1, s_2$ s.t. $s_1=s_2=s'=\frac{n-4}{2}$ , 于是再由对偶性，估计成立等价于
+&emsp; *Step 2*. 由 $s_1\leq s_2$ , 只需考虑频率 $\xi_1\geq \xi_2$ , 否则对 $I$ 乘以 $\vert\frac{\xi_2}{\xi_1}\vert^{s_2-s_1}\geq 1$ 即可. 进一步，当 $\vert \xi_1\vert\leq 4\vert \xi_2\vert$ 时 i.e. 初值的频率是**comparable**: $\vert\xi_1\vert \sim \vert \xi_2\vert$ , 则可以调整 $s_1, s_2$ s.t. $s_1=s_2=s'=\frac{n-4}{2}$ , 于是再由对偶性，估计成立等价于
 
 $$
 \Vert uv\Vert_{L_t^2L_x^2}\lesssim \Vert u_0\Vert_{\dot{H}^{s'}} \Vert v_0\Vert_{\dot{H}^{s'}}.  
@@ -133,8 +133,8 @@ $$
 
 而 $\Vert uv\Vert_{L_t^2L_x^2} \leq \Vert u\Vert_{L_t^4L_x^4} \Vert v\Vert_{L_t^4L_x^4}$ , 由普通的Strichartz估计即得证. (注意这里使用了 $n\geq 2\Rightarrow s'\geq 0$ , 所以丘赛题作为 $n=1$ 情形必须要求初值的频率是seperate) <br>
 
-&emsp; *Step 3.* 现在只需考虑频率**seperate**的情形：$\vert\xi_1\vert \geq 4\vert\xi_2\vert$ .
+&emsp; *Step 3.* 现在只需考虑频率**seperate**的情形：$\vert\xi_1\vert > The4\vert\xi_2\vert$ .
 
-<hr style="height=1px”>
+<hr style="height=1px">
 
 &copy; Senyu Yang&emsp;[Next Dream…](./)
