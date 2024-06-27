@@ -8,7 +8,7 @@ height:100%;
 min-width: 1000px;
 z-index:-10;
 zoom: 1;
-  background-image: url();
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgBA_vJZU-QJZ2ZyiJQ0zo2xmpT2qMGT6gTw&s);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center 0;
@@ -68,7 +68,7 @@ $$
 首先叙述Bourgain的结果. ~~由于笔者偷懒的缘故~~我们只考虑齐次情形.
 
 
->**定理1.**(Bourgain) 设 $n\geq 2$ , $u(t,x):=e^{it\Delta}u_0(x), v(t,x):=e^{it\Delta}v_0$ . 则对任意 $\delta>0$ , 
+>**定理1.**(Bourgain) 设 $n\geq 2$ , $u(t,x):=e^{it\Delta}u_0(x), v(t,x):=e^{it\Delta}v_0(x)$ . 则对任意 $\delta>0$ , 
 >
 $$
 \Vert uv\Vert_{L_t^2L_x^2}\lesssim_{\delta} \Vert u_0\Vert_{\dot{H}^{-\frac{1}{2}+\delta}} \Vert v_0\Vert_{\dot{H}^{\frac{n-1}{2}-\delta}}
