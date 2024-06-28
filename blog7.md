@@ -28,7 +28,7 @@ zoom: 1;
 </head>
 <div class="bjimg"></div>
 
-# Bourgain的魔法：一道丘赛题与双线性Strichartz估计
+# Bourgain的魔法：一道2024年丘赛题与双线性Strichartz估计
 
 <font size="2" color="grey">2024.6.28 </font><br/>
 *按：Jean Bourgain(1954-20180)绝对属于当代最富创造力的一批数学家，在诸多领域留下不胜数的成果和洞见. 也许每个分析学工作者都会在生命的某个阶段接触Bourgain的工作或思想. 这里是一个(不定期)连载系列，记录Bourgain的数学魔法.*
