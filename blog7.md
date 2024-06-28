@@ -152,7 +152,7 @@ $$
 为了得到 $\Vert g\Vert_{L^2(\mathbb{R}\times\mathbb{R}^n)}$ , 这里需要做换元: 令 $u=\xi_1+\xi_2\in \mathbb{R}^n$ , $v=\vert \xi_1\vert^2+\vert\xi_2\vert^2\in \mathbb{R}_+$ . 这里的自由度只有 $n+1$ 个，所以还需引入新的变量. 注意到 $\mathbb{R}^n\times\mathbb{R}^n$ 可以被以下区域覆盖(上标代表坐标分量)
 
 $$
-\Lambda_{j, k}:=\left{ (\xi_1,\xi_2): \vert\xi_1^j\vert \sim \vert \xi_1\vert,  \vert\xi_2^k\vert \sim \vert \xi_2\vert\right} , \ 1\leq j,k\leq n.
+\Lambda_{j, k}:=\{ (\xi_1,\xi_2): \vert\xi_1^j\vert \sim \vert \xi_1\vert,  \vert\xi_2^k\vert \sim \vert \xi_2\vert \} , \ 1\leq j,k\leq n.
 $$
 
 由对称性，我们**只需考虑** $\Lambda_{1,1}$ $\colon \vert \xi_1^1\vert\sim \vert\xi_1\vert$ , $\vert \xi_2^1\vert\sim\vert \xi_2\vert$ . 记 $\xi_2=(\xi_2^1, \tilde{\xi_2})$ , 并选取 $\tilde{\xi_2}$ 作为新变量. 固定$\tilde{\xi_2}$ , 则 
