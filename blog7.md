@@ -136,7 +136,7 @@ $$
 &emsp; *Step 3.* 现在只需考虑频率**seperate**的情形：$\vert\xi_1\vert > 4\vert\xi_2\vert$ . $\vert\xi_1\vert \geq 4\vert\xi_2\vert$ . 对 $\xi_1, \xi_2$ 作Littlewood-Paley分解
 
 $$
-\widehat{u_0} =\sum_N \widehat{\u_0}_N, \widehat{v_0}=\sum_N\sum_{M\leq -1} \widehat{v_0}_{M+N},
+\widehat{u_0} =\sum_N \widehat{u_0}_N, \widehat{v_0}=\sum_N\sum_{M\leq -1} \widehat{v_0}_{M+N},
 $$
 
 下标 $N\in\mathbb{Z}$ 代表频率支撑在 $2^{N-1}\leq \vert \cdot\vert \leq 2^{N+1}$ 上，$M\leq -1$ 由seperate条件给出. (注意到丘赛问题中 $s_1=s_2=0$ 且初值频率紧支 , 所以无需做L-P分解.) 因此只需考虑
@@ -152,10 +152,10 @@ $$
 为了得到 $\Vert g\Vert_{L^2(\mathbb{R}\times\mathbb{R}^n)}$ , 这里需要做换元: 令 $u=\xi_1+\xi_2\in \mathbb{R}^n$ , $v=\vert \xi_1\vert^2+\vert\xi_2\vert^2\in \mathbb{R}_+$ . 这里的自由度只有 $n+1$ 个，所以还需引入新的变量. 注意到 $\mathbb{R}^n\times\mathbb{R}^n$ 可以被以下区域覆盖(上标代表坐标分量)
 
 $$
-\Lambda_{j, k}:=\left{ (\xi_1,\xi_2)\colon \vert\xi_1^j\vert \sim \vert \xi_1\vert,  \vert\xi_2^k\vert \sim \vert \xi_2\vert\right} , \ 1\leq j,k\leq n.
+\Lambda_{j, k}:=\left{ (\xi_1,\xi_2): \vert\xi_1^j\vert \sim \vert \xi_1\vert,  \vert\xi_2^k\vert \sim \vert \xi_2\vert\right} , \ 1\leq j,k\leq n.
 $$
 
-由对称性，我们**只需考虑 $\Lambda_{1,1}$ ** $\colon \vert \xi_1^1\vert\sim \vert\xi_1\vert$ , $\vert \xi_2^1\vert\sim\vert \xi_2\vert$ . 记 $\xi_2=(\xi_2^1, \tilde{\xi_2})$ , 并选取 $\tilde{\xi_2}$ 作为新变量. 固定$\tilde{\xi_2}$ , 则 
+由对称性，我们**只需考虑** $\Lambda_{1,1}$ $\colon \vert \xi_1^1\vert\sim \vert\xi_1\vert$ , $\vert \xi_2^1\vert\sim\vert \xi_2\vert$ . 记 $\xi_2=(\xi_2^1, \tilde{\xi_2})$ , 并选取 $\tilde{\xi_2}$ 作为新变量. 固定$\tilde{\xi_2}$ , 则 
 
 $$
 \vert \xi_1\vert^2+\vert\xi_2^1\vert^2-v+\vert \tilde{\xi_2}\vert^2=0,
@@ -223,7 +223,7 @@ $$
 \lesssim \Vert g\Vert_{L^2}\Vert u_0\Vert_{L^2}\Vert v_0\Vert_{L^2}.
 $$
 
-综上，$n\geq 2$ 维以及 $\left( n=1 \wedge \text{seperate条件}\right)$ 的齐次bilinear Strichartz estimate成立！ &emsp; $\Box$ <br/>
+综上，$n\geq 2$ 以及 $\left( n=1 \wedge \text{seperate条件}\right)$ 的齐次bilinear Strichartz estimate成立！ &emsp; $\Box$ <br/>
 
 *注*. 非齐次情形可以用Duhamel原理和Minkowski积分不等式得到非齐次bilinear Strichartz estimate
 
