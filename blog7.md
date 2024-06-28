@@ -48,7 +48,7 @@ $$
 >证明: 存在与 $\psi$ 有关但与 $f_1, f_2$ 无关的常数 $C$ s.t. 
 >
 $$
-\Vert u_1u_2\Vert_{L^2(\mathbb{R})}\leq C\Vert f_1\Vert_{L^2(\mathbb{R})} \Vert f_2\Vert_{L^2(\mathbb{R})}.
+\Vert u_1u_2\Vert_{L^2(\mathbb{R}^2)}\leq C\Vert f_1\Vert_{L^2(\mathbb{R})} \Vert f_2\Vert_{L^2(\mathbb{R})}.
 $$
 >
 >(提示. 尝试用Plancherel定理. ~~这不是废话吗~~)
