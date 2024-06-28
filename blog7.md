@@ -67,13 +67,21 @@ $$
 
 首先叙述Bourgain的结果. ~~由于笔者偷懒的缘故~~我们只考虑齐次情形.
 
->**定理1.**(Bourgain) 设 $n\geq 2$ , $u(t,x):=e^{it\Delta}u_0(x), v(t,x):=e^{it\Delta}v_0(x)$ . 则对任意 $\delta>0$ , 
+>**定理.**(Bourgain) 设 $n\geq 2$ , $u(t,x):=e^{it\Delta}u_0(x), v(t,x):=e^{it\Delta}v_0(x)$ . 则对任意 $\delta>0$ , 
 >
 $$
 \Vert uv\Vert_{L_t^2L_x^2}\lesssim_{\delta} \Vert u_0\Vert_{\dot{H}^{-\frac{1}{2}+\delta}} \Vert v_0\Vert_{\dot{H}^{\frac{n-1}{2}-\delta}}
 $$
 
 记 $s_1=-\frac{1}{2}+\delta$ , $s_2=\frac{n-1}{2}-\delta$ , $s_1+s_2=\frac{n}{2}-1$ . 由对称性，不妨设 $s_1\leq s_2$ , 这时Bourgain的估计对于高频的 $u$ 和低频的 $v$ 非常有用(这里会让人联想Bony仿积分解)，[2] 作如此评论：*This estimate shows in particular that there is little interaction between high and low frequencies*. <br/>
+
+在证明前先给出经典的(简化版)Strichartz估计. 
+
+$$
+\Vert u Vert_{L_t^4L_x^4}\lesssim \Vert u_0\Vert_{L^2}. 
+$$
+
+一般的Strichartz估计的证明可以在任何色散PDE教材中找到，非端点情形的证明主要是 $TT^*$ argument以及对 $L^{\infty}$ 衰减和 $L^2$ 守恒做插值. 我们还会看到丘赛题的条件是我们可以绕开经典的Strichartz估计~~所以并不超纲~~. <br/>
 
 *证明*. 我们分为以下几步. <br> 
 
@@ -131,7 +139,7 @@ $$
 \Vert uv\Vert_{L_t^2L_x^2}\lesssim \Vert u_0\Vert_{\dot{H}^{s'}} \Vert v_0\Vert_{\dot{H}^{s'}}.  
 $$
 
-而 $\Vert uv\Vert_{L_t^2L_x^2} \leq \Vert u\Vert_{L_t^4L_x^4} \Vert v\Vert_{L_t^4L_x^4}$ , 由普通的Strichartz估计即得证. (注意这里使用了 $n\geq 2\Rightarrow s'\geq 0$ , 所以丘赛题作为 $n=1$ 情形必须要求初值的频率是seperate) <br>
+而 $\Vert uv\Vert_{L_t^2L_x^2} \leq \Vert u\Vert_{L_t^4L_x^4} \Vert v\Vert_{L_t^4L_x^4}$ , 由经典的Strichartz估计即得证. (注意这里使用了 $n\geq 2\Rightarrow s'\geq 0$ , 所以丘赛题作为 $n=1$ 情形必须要求初值的频率是seperate) <br>
 
 &emsp; *Step 3.* 现在只需考虑频率**seperate**的情形：$\vert\xi_1\vert > 4\vert\xi_2\vert$ . $\vert\xi_1\vert \geq 4\vert\xi_2\vert$ . 对 $\xi_1, \xi_2$ 作Littlewood-Paley分解
 
@@ -228,7 +236,11 @@ $$
 *注*. 非齐次情形可以用Duhamel原理和Minkowski积分不等式得到非齐次bilinear Strichartz estimate
 
 $$
-\Vert uv\Vert_{L_t^2L_x^2} \lesssim_{\delta} (\Vert u_0\Vert_{\dot{H}^{-1/2+\delta}}+\Vert (i\partial_t+\Delta)u\Vert_{L_t^1\dot{H}_x^{-1/2+\delta}}) \times (\Vert v_0\Vert_{\dot{H}^{\frac{n-1}/2-\delta}}+\Vert (i\partial_t+\Delta)v\Vert_{L_t^1\dot{H}_x^{\frac{n-1}/2-\delta}}).
+\Vert uv\Vert_{L_t^2L_x^2} \lesssim_{\delta} (\Vert u_0\Vert_{\dot{H}^{-1/2+\delta}}+\Vert (i\partial_t+\Delta)u\Vert_{L_t^1\dot{H}_x^{-1/2+\delta}}) 
+$$
+
+$$
+\times (\Vert v_0\Vert_{\dot{H}^{\frac{n-1}/2-\delta}}+\Vert (i\partial_t+\Delta)v\Vert_{L_t^1\dot{H}_x^{\frac{n-1}/2-\delta}}).
 $$
 
 <hr style="height=1px">
