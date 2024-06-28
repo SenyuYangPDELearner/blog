@@ -118,7 +118,7 @@ $$
 i.e.
 
 $$
-\int_{\mathbb{R}^n\times\mathbb{R}^n} g(\vert\xi_1\vert^2+\vert\xi_2\vert^2,\xi_1+\xi_2) \vert\xi_1\vert^{-s_1}\widehat{u_0}(\xi_1)\vert\xi_2\vert^{-s_2}\widehat{v_0}(\xi_2) \ d\xi_1 d\xi_2
+I:=\int_{\mathbb{R}^n\times\mathbb{R}^n} g(\vert\xi_1\vert^2+\vert\xi_2\vert^2,\xi_1+\xi_2) \vert\xi_1\vert^{-s_1}\widehat{u_0}(\xi_1)\vert\xi_2\vert^{-s_2}\widehat{v_0}(\xi_2) \ d\xi_1 d\xi_2
 $$
 
 $$
@@ -133,7 +133,103 @@ $$
 
 而 $\Vert uv\Vert_{L_t^2L_x^2} \leq \Vert u\Vert_{L_t^4L_x^4} \Vert v\Vert_{L_t^4L_x^4}$ , 由普通的Strichartz估计即得证. (注意这里使用了 $n\geq 2\Rightarrow s'\geq 0$ , 所以丘赛题作为 $n=1$ 情形必须要求初值的频率是seperate) <br>
 
-&emsp; *Step 3.* 现在只需考虑频率**seperate**的情形：$\vert\xi_1\vert > 4\vert\xi_2\vert$ .
+&emsp; *Step 3.* 现在只需考虑频率**seperate**的情形：$\vert\xi_1\vert > 4\vert\xi_2\vert$ . $\vert\xi_1\vert \geq 4\vert\xi_2\vert$ . 对 $\xi_1, \xi_2$ 作Littlewood-Paley分解
+
+$$
+\widehat{u_0} =\sum_N \widehat{\u_0}_N, \widehat{v_0}=\sum_N\sum_{M\leq -1} \widehat{v_0}_{M+N},
+$$
+
+下标 $N\in\mathbb{Z}$ 代表频率支撑在 $2^{N-1}\leq \vert \cdot\vert \leq 2^{N+1}$ 上，$M\leq -1$ 由seperate条件给出. (注意到丘赛问题中 $s_1=s_2=0$ 且初值频率紧支 , 所以无需做L-P分解.) 因此只需考虑
+
+$$
+I_{M,N}:=\int_{\mathbb{R}^n\times\mathbb{R}^n} g(\vert\xi_1\vert^2+\vert\xi_2\vert^2,\xi_1+\xi_2) \vert\xi_1\vert^{-s_1}\widehat{u_0}_N(\xi_1)\vert\xi_2\vert^{-s_2}\widehat{v_0}_{M+N}(\xi_2) \ d\xi_1 d\xi_2
+$$
+
+$$
+\sim 2^{-N(s_1+s_2)}2^{-Ms_2}\int_{\mathbb{R}^n\times\mathbb{R}^n} g(\vert\xi_1\vert^2+\vert\xi_2\vert^2,\xi_1+\xi_2) \widehat{u_0}_N(\xi_1)\widehat{v_0}_{M+N}(\xi_2) \ d\xi_1 d\xi_2
+$$ 
+
+为了得到 $\Vert g\Vert_{L^2(\mathbb{R}\times\mathbb{R}^n)}$ , 这里需要做换元: 令 $u=\xi_1+\xi_2\in \mathbb{R}^n$ , $v=\vert \xi_1\vert^2+\vert\xi_2\vert^2\in \mathbb{R}_+$ . 这里的自由度只有 $n+1$ 个，所以还需引入新的变量. 注意到 $\mathbb{R}^n\times\mathbb{R}^n$ 可以被以下区域覆盖(上标代表坐标分量)
+
+$$
+\Lambda_{j, k}:=\left{ (\xi_1,\xi_2)\colon \vert\xi_1^j\vert \sim \vert \xi_1\vert,  \vert\xi_2^k\vert \sim \vert \xi_2\vert\right} , \ 1\leq j,k\leq n.
+$$
+
+由对称性，我们**只需考虑 $\Lambda_{1,1}$ ** $\colon \vert \xi_1^1\vert\sim \vert\xi_1\vert$ , $\vert \xi_2^1\vert\sim\vert \xi_2\vert$ . 记 $\xi_2=(\xi_2^1, \tilde{\xi_2})$ , 并选取 $\tilde{\xi_2}$ 作为新变量. 固定$\tilde{\xi_2}$ , 则 
+
+$$
+\vert \xi_1\vert^2+\vert\xi_2^1\vert^2-v+\vert \tilde{\xi_2}\vert^2=0,
+$$
+
+$$
+\xi_1+\xi_2^1\mathbf{e}_1-u=\mathbf{0}.
+$$
+
+记左式为向量值函数 $F(\xi_1, \xi_2^1; u, v)$ , 计算得(省略了符号)
+
+$$
+\det \frac{\partial F}{\partial (\xi_1, \xi_2^1)}=2 \vert \xi_1^1\pm \xi_2^1\vert, \det \frac{\partial F}{\partial (u,v)}=1.
+$$
+
+频率seperate, 所以前者 $\sim \xi_1^1$ . (注意到丘赛问题是 $n=1$ 情形，所以无需选择 $\tilde{\xi_2}$ 这个步骤，计算上方便很多.) 由隐函数定理即得
+
+$$
+dxi_1d\xi_2^1= J\ dudv , \ J\sim 2^{-N}, 
+$$
+
+于是
+
+$$
+\int_{\mathbb{R}^n\times\mathbb{R}^n} g(\vert\xi_1\vert^2+\vert\xi_2\vert^2,\xi_1+\xi_2) \widehat{u_0}_N(\xi_1)\widehat{v_0}_{M+N}(\xi_2) \ d\xi_1 d\xi_2
+$$
+
+$$
+=\int_{\mathbb{R}^{n-1}}d\tilde{\xi_2} \ \int_{\mathbb{R}_+\times\mathbb{R}^n} g(v,u) \widehat{u_0}_N(\xi_1(u,v))\widehat{v_0}_{M+N}(\xi_2(u,v)) \ J\ dudv 
+$$
+
+$$
+\leq \Vert g\Vert_{L^2} \int_{\mathbb{R}^{n-1}}d\tilde{\xi_2} \ \left( \int_{\mathbb{R}_+\times\mathbb{R}^n} \vert \widehat{u_0}_N(\xi_1(u,v))\widehat{v_0}_{M+N}(\xi_2(u,v)) J\vert ^2\ dudv \right) ^{1/2}
+$$
+
+$$
+=\Vert g\Vert_{L^2} \int_{\mathbb{R}^{n-1}}d\tilde{\xi_2} \ \left( \int_{\mathbb{R}\times\mathbb{R}^n} \vert\widehat{u_0}_N(\xi_1)\widehat{v_0}_{M+N}(\xi_2)\vert^2 \ \vert J\vert \ d\xi_1d\xi_2^1 \right) ^{1/2}
+$$
+
+$$
+\lesssim 2^{-N/2} \Vert g\Vert_{L^2}\cdot 2^{(M+N)(n-1)/2} \Vert \widehat{u_0}_N\Vert_{L^2} \Vert \widehat{v_0}_{M+N}\Vert_{L^2}, 
+$$
+
+所以 
+
+$$
+I_{M,N}\lesssim 2^{N(-s_1-s_2+n/2-1)} 2^{M(-s_2+\frac{n-1}{2})} \Vert g\Vert_{L^2}\Vert \widehat{u_0}_N\Vert_{L^2} \Vert \widehat{v_0}_{M+N}\Vert_{L^2}
+$$
+
+$$
+ =\Vert g\Vert_{L^2}\Vert \widehat{u_0}_N\Vert_{L^2} \left( 2^{-M\delta} \Vert \widehat{v_0}_{M+N}\Vert_{L^2}\right) .
+$$  
+
+由Plancherel定理，(离散卷积的)Young不等式和 $\delta>0$ 可得
+
+$$
+I\ \lesssim \Vert g\Vert_{L^2}\sum_{N} \Vert \widehat{u_0}_N\Vert_{L^2}\left(\sum_{M\leq -1}  2^{-M\delta}  \Vert \widehat{v_0}_{M+N}\Vert_{L^2}\right)
+$$
+
+$$
+\lesssim \Vert g\Vert_{L^2}\left(\sum_{N} \Vert \widehat{u_0}_N\Vert_{L^2}\right)  \Vert 2^{-M\delta}\Vert_{l_{M\leq 1}^1} \left(\sum_N \Vert \widehat{v_0}_N\Vert_{L^2}\right)
+$$
+
+$$
+\lesssim \Vert g\Vert_{L^2}\Vert u_0\Vert_{L^2}\Vert v_0\Vert_{L^2}.
+$$
+
+综上，$n\geq 2$ 维以及 $\left( n=1 \wedge \text{seperate条件}\right)$ 的齐次bilinear Strichartz estimate成立！ &emsp; $\Box$ <br/>
+
+*注*. 非齐次情形可以用Duhamel原理和Minkowski积分不等式得到非齐次bilinear Strichartz estimate
+
+$$
+\Vert uv\Vert_{L_t^2L_x^2} \lesssim_{\delta} (\Vert u_0\Vert_{\dot{H}^{-1/2+\delta}}+\Vert (i\partial_t+\Delta)u\Vert_{L_t^1\dot{H}_x^{-1/2+\delta}}) \times (\Vert v_0\Vert_{\dot{H}^{\frac{n-1}/2-\delta}}+\Vert (i\partial_t+\Delta)v\Vert_{L_t^1\dot{H}_x^{\frac{n-1}/2-\delta}}).
+$$
 
 <hr style="height=1px">
 
