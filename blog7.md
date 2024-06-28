@@ -8,7 +8,7 @@ height:100%;
 min-width: 1000px;
 z-index:-10;
 zoom: 1;
-  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgBA_vJZU-QJZ2ZyiJQ0zo2xmpT2qMGT6gTw&s);
+  background-image: url(https://www.pnas.org/cms/10.1073/pnas.1901965116/asset/72a771ec-f108-4f4f-8004-087589844652/assets/graphic/pnas.1901965116fig01.jpeg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center 0;
@@ -81,7 +81,7 @@ $$
 \Vert u \Vert_{L_t^4L_x^4}\lesssim \Vert u_0\Vert_{L^2}. 
 $$
 
-一般的Strichartz估计的证明可以在任何色散PDE教材中找到，非端点情形的证明主要是 $TT^*$ argument以及对 $L^{\infty}$ 衰减和 $L^2$ 守恒做插值. 我们还会看到丘赛题的条件是我们可以绕开经典的Strichartz估计~~所以并不超纲~~. <br/>
+一般的Strichartz估计的证明可以在任何色散PDE教材中找到，非端点情形的证明主要是 $TT^*$ argument以及对 $L^{\infty}$ 衰减和 $L^2$ 守恒做插值. 我们还会看到丘赛问题的条件使我们可以绕开经典的Strichartz估计——所以并不超纲（笑）. <br/>
 
 *证明*. 我们分为以下几步. <br> 
 
@@ -149,7 +149,7 @@ $$
 \widehat{u_0} =\sum_N \widehat{u_0}_N, \widehat{v_0}=\sum_N\sum_{M\leq -1} \widehat{v_0}_{M+N},
 $$
 
-下标 $N\in\mathbb{Z}$ 代表频率支撑在 $2^{N-1}\leq \vert \cdot\vert \leq 2^{N+1}$ 上，$M\leq -1$ 由seperate条件给出. (注意到丘赛问题中 $s_1=s_2=0$ 且初值频率紧支 , 所以无需做L-P分解.) 因此只需考虑
+下标 $N\in\mathbb{Z}$ 代表频率支撑在 $2^{N-1}\leq \vert \cdot\vert \leq 2^{N+1}$ 上，$M\leq -1$ 由seperate条件给出. (注意到丘赛问题中 $s_1=s_2=0$ 且初值频率紧支 , 所以无需做L-P分解.) 因此只需估计每个
 
 $$
 I_{M,N}:=\int_{\mathbb{R}^n\times\mathbb{R}^n} g(\vert\xi_1\vert^2+\vert\xi_2\vert^2,\xi_1+\xi_2) \vert\xi_1\vert^{-s_1}\widehat{u_0}_N(\xi_1)\vert\xi_2\vert^{-s_2}\widehat{v_0}_{M+N}(\xi_2) \ d\xi_1 d\xi_2
@@ -175,7 +175,7 @@ $$
 \xi_1+\xi_2^1\mathbf{e}_1-u=\mathbf{0}.
 $$
 
-记左式为向量值函数 $F(\xi_1, \xi_2^1; u, v)$ , 计算得(省略了符号)
+记左式为向量值函数 $F(\xi_1, \xi_2^1; u, v)$ , 计算得(相差一个正负号)
 
 $$
 \det \frac{\partial F}{\partial (\xi_1, \xi_2^1)}=2 \vert \xi_1^1\pm \xi_2^1\vert, \det \frac{\partial F}{\partial (u,v)}=1.
@@ -242,7 +242,7 @@ $$
 $$
 
 $$
-\times (\Vert v_0\Vert_{\dot{H}^{\frac{n-1}/2-\delta}}+\Vert (i\partial_t+\Delta)v\Vert_{L_t^1\dot{H}_x^{\frac{n-1}/2-\delta}}).
+\times (\Vert v_0\Vert_{\dot{H}^{\frac{n-1}{2}-\delta}}+\Vert (i\partial_t+\Delta)v\Vert_{L_t^1\dot{H}_x^{\frac{n-1}{2}-\delta}}).
 $$
 
 <hr style="height=1px">
