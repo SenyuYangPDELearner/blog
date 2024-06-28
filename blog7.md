@@ -78,7 +78,7 @@ $$
 在证明前先给出经典的(简化版)Strichartz估计. 
 
 $$
-\Vert u Vert_{L_t^4L_x^4}\lesssim \Vert u_0\Vert_{L^2}. 
+\Vert u \Vert_{L_t^4L_x^4}\lesssim \Vert u_0\Vert_{L^2}. 
 $$
 
 一般的Strichartz估计的证明可以在任何色散PDE教材中找到，非端点情形的证明主要是 $TT^*$ argument以及对 $L^{\infty}$ 衰减和 $L^2$ 守恒做插值. 我们还会看到丘赛题的条件是我们可以绕开经典的Strichartz估计~~所以并不超纲~~. <br/>
@@ -133,6 +133,8 @@ $$
 \lesssim \Vert g\Vert_{L^2(\mathbb{R}\times\mathbb{R}^n)} \Vert u_0\Vert_{L^2} \Vert v_0\Vert_{L^2}.
 $$
 
+这里duality argument的妙处在于把时间频率从震荡因子中取出. <br>
+
 &emsp; *Step 2*. 由 $s_1\leq s_2$ , 只需考虑频率 $\xi_1\geq \xi_2$ , 否则对 $I$ 乘以 $\vert\frac{\xi_2}{\xi_1}\vert^{s_2-s_1}\geq 1$ 即可. 进一步，当 $\vert \xi_1\vert\leq 4\vert \xi_2\vert$ 时 i.e. 初值的频率是**comparable**: $\vert\xi_1\vert \sim \vert \xi_2\vert$ , 则可以调整 $s_1, s_2$ s.t. $s_1=s_2=s'=\frac{n-4}{2}$ , 于是再由对偶性，估计成立等价于
 
 $$
@@ -163,7 +165,7 @@ $$
 \Lambda_{j, k}:=\{ (\xi_1,\xi_2): \vert\xi_1^j\vert \sim \vert \xi_1\vert,  \vert\xi_2^k\vert \sim \vert \xi_2\vert \} , \ 1\leq j,k\leq n.
 $$
 
-由对称性，我们**只需考虑** $\Lambda_{1,1}$ $\colon \vert \xi_1^1\vert\sim \vert\xi_1\vert$ , $\vert \xi_2^1\vert\sim\vert \xi_2\vert$ . 记 $\xi_2=(\xi_2^1, \tilde{\xi_2})$ , 并选取 $\tilde{\xi_2}$ 作为新变量. 固定$\tilde{\xi_2}$ , 则 
+由对称性，我们只需考虑 $\Lambda_{1,1}$ $\colon \vert \xi_1^1\vert\sim \vert\xi_1\vert$ , $\vert \xi_2^1\vert\sim\vert \xi_2\vert$ . 记 $\xi_2=(\xi_2^1, \tilde{\xi_2})$ , 并选取 $\tilde{\xi_2}$ 作为新变量. 固定$\tilde{\xi_2}$ , 则 
 
 $$
 \vert \xi_1\vert^2+\vert\xi_2^1\vert^2-v+\vert \tilde{\xi_2}\vert^2=0,
@@ -182,10 +184,10 @@ $$
 频率seperate, 所以前者 $\sim \xi_1^1$ . (注意到丘赛问题是 $n=1$ 情形，所以无需选择 $\tilde{\xi_2}$ 这个步骤，计算上方便很多.) 由隐函数定理即得
 
 $$
-dxi_1d\xi_2^1= J\ dudv , \ J\sim 2^{-N}, 
+d\xi_1d\xi_2^1= J\ dudv , \ J\sim 2^{-N}, 
 $$
 
-于是
+总之，$\Lambda_{1,1}\cap \{ \vert \xi_1\vert> 4\vert \xi_2\vert\}$ *绕开了* $J$ *的奇点*. 于是
 
 $$
 \int_{\mathbb{R}^n\times\mathbb{R}^n} g(\vert\xi_1\vert^2+\vert\xi_2\vert^2,\xi_1+\xi_2) \widehat{u_0}_N(\xi_1)\widehat{v_0}_{M+N}(\xi_2) \ d\xi_1 d\xi_2
