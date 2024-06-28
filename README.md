@@ -32,7 +32,7 @@ MathJax.Hub.Config({
 
 - Bourgain的魔法：一个Szemerédi型定理与调和分析&ensp;<font color="grey" size=2>To be released...</font>
 
-- Bourgain的魔法：一道丘赛题与双线性Strichartz估计&ensp;<font color="grey" size=2>To be released...</font>
+- [Bourgain的魔法：一道2024年丘赛题与双线性Strichartz估计](./blog7)&ensp;<font size=2>2024.6.28</font>
 
 - [Littlewood-Paley定理的随机化证明](./blog5)&ensp;<font size="2">2024.5.12</font> <br/>
 
