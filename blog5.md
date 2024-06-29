@@ -228,11 +228,7 @@ $$
 例如$\tilde{\Delta}\_j=\Delta_{j-1}+\Delta_j+\Delta_{j+1}$. 因此对$f,g\in\mathcal{S}$，
 
 $$
-\vert\int_{\mathbb{R}^n} fg\vert
-$$
-
-$$
-=\vert\sum_j \int_{\mathbb{R}^n} \Delta_jf\cdot g\vert
+\vert\int_{\mathbb{R}^n} fg\vert =\vert\sum_j \int_{\mathbb{R}^n} \Delta_jf\cdot g\vert
 $$
 
 $$
@@ -248,11 +244,7 @@ $$
 $$
 
 $$
-\leq \Vert Sf\Vert_p\Vert Sg\Vert_{p'}
-$$
-
-$$
-\lesssim \Vert Sf\Vert_p\Vert g\Vert_{p'},
+\leq \Vert Sf\Vert_p\Vert Sg\Vert_{p'} \lesssim \Vert Sf\Vert_p\Vert g\Vert_{p'},
 $$
 
 其中$1/p+1/p'=1$，第四行用Plancherel定理，第七行用L-P定理的上界估计. 再由$L^p$的对偶性可知$\Vert f\Vert_p\lesssim \Vert Sf\Vert_p$.&emsp;&emsp;$\Box$
