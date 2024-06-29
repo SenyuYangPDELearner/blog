@@ -16,15 +16,7 @@ zoom: 1;
   }
 </style>
 <head>    
-<script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
-<script type="text/x-mathjax-config">
-MathJax.Hub.Config({
-        tex2jax: {
-        skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
-        inlineMath: [['$','$']]
-        }
-});
-</script>
+
 </head>
 <div class="bjimg"></div>
 
@@ -36,7 +28,7 @@ MathJax.Hub.Config({
 
 - [Littlewood-Paley定理的随机化证明](./blog5)&ensp;<font size="2">2024.5.12</font> <br/>
 
-- ($\pi$ day)[Cauchy积分定理的几何风证明](./blog4)&ensp;<font size="2">2024.3.14</font> <br/>
+- ( $\pi$ day)[Cauchy积分定理的几何风证明](./blog4)&ensp;<font size="2">2024.3.14</font> <br/>
 
 - [Bootstrap Method(baby ver.)](./blog3)&ensp;<font size="2">2024.3.8</font> <br/>
 
