@@ -78,10 +78,10 @@ $$
 在证明前先给出经典的(简化版)Strichartz估计. 
 
 $$
-\Vert u \Vert_{L_t^4L_x^4}\lesssim \Vert u_0\Vert_{L^2}. 
+\Vert u \Vert_{L_t^4L_x^{\frac{2n}{n-1}}}\lesssim \Vert u_0\Vert_{L^2}, n\geq 2. 
 $$
 
-一般的Strichartz估计的证明可以在任何色散PDE教材中找到，非端点情形的证明主要是 $TT^*$ argument以及对 $L^{\infty}$ 衰减和 $L^2$ 守恒做插值. 我们还会看到丘赛问题的条件使我们可以绕开经典的Strichartz估计——所以并不超纲（笑）. <br/>
+一般的Strichartz估计的证明可以在任何色散PDE教材中找到，非端点情形的证明主要是 $TT^*$ argument以及对 $L^{\infty}$ 衰减和 $L^2$ 守恒做插值. 我们还会看到丘赛问题的条件使我们可以绕开经典的Strichartz估计——所以并不超纲（笑）. 不难看出 $n=2$ 时经典版本是双线性版本的推论，我们在文章最后也将看到当初Bourgain将双线性版本称为refined Strichartz估计的原因. <br/>
 
 *证明*. 我们分为以下几步. <br> 
 
@@ -141,7 +141,19 @@ $$
 \Vert uv\Vert_{L_t^2L_x^2}\lesssim \Vert u_0\Vert_{\dot{H}^{s'}} \Vert v_0\Vert_{\dot{H}^{s'}}.  
 $$
 
-而 $\Vert uv\Vert_{L_t^2L_x^2} \leq \Vert u\Vert_{L_t^4L_x^4} \Vert v\Vert_{L_t^4L_x^4}$ , 由经典的Strichartz估计即得证. (注意这里使用了 $n\geq 2\Rightarrow s'\geq 0$ , 所以丘赛题作为 $n=1$ 情形必须要求初值的频率是seperate) <br>
+而 $\Vert uv\Vert_{L_t^2L_x^2} \leq \Vert u\Vert_{L_t^4L_x^4} \Vert v\Vert_{L_t^4L_x^4}$ ,不妨作频率局部化：
+
+$$  
+\mathrm{supp} \ \widehat{u_0}, \mathrm{supp} \ \widehat{v_0} \subset \{ 2^{N-2}\leq \vert \xi\vert\leq 2^{N+2}\},
+$$
+
+由Bernstein不等式和 $n\geq 2\Rightarrow 4\geq \frac{2n}{n-1}$ 可得
+
+$$
+\Vert u\Vert_{L_t^4L_x^4}\lesssim N^{\frac{n-1}{2}-\frac{n}{4}} \Vert u\Vert_{L_t^4L_x^{\frac{2n}{n-1}}}=N^{s'}\Vert u\Vert_{L_t^4L_x^{\frac{2n}{n-1}}},
+$$
+
+由经典的Strichartz估计和 $\dot{H}^{s'}$ 的Littlewood-Paley刻画即得证. (注意这里使用了 $n\geq 2$, 所以丘赛问题作为 $n=1$ 情形必须要求初值的频率是seperate.) <br>
 
 &emsp; *Step 3.* 现在只需考虑频率**seperate**的情形：$\vert\xi_1\vert > 4\vert\xi_2\vert$ . $\vert\xi_1\vert \geq 4\vert\xi_2\vert$ . 对 $\xi_1, \xi_2$ 作Littlewood-Paley分解
 
