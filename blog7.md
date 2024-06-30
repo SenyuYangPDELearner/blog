@@ -251,7 +251,15 @@ $$
 
 综上，$n\geq 2$ 以及 $\left( n=1 \wedge \text{seperate条件}\right)$ 的齐次bilinear Strichartz estimate成立！ &emsp; $\Box$ <br/>
 
-*注*. 非齐次情形可以用Duhamel原理和Minkowski积分不等式得到非齐次bilinear Strichartz estimate
+*注1*. Bourgain最初在[1]将这个双线性估计称为refined Strichartz估计，因为取 $n=2, \delta=1/2$ , 由Step 3可知当 $u_0, v_0$ 的频率分别集中在半径为 $r_1, r_2\ (r_1>r_2>0)$ 附近时
+
+$$
+ \Vert uv\Vert_{L_t^2L_x^2}\lesssim \left(\frac{r_2}{r_1}\right)^{1/2} \Vert u_0\Vert_{L^2} \Vert v_0\Vert_{L^2}.
+$$
+
+Bourgain引入的多线性估计比经典的Strichartz估计更加精细地刻画了高频-低频的相互作用，换言之，更贴近色散方程“不同频率的波包对应不同的群速度”的物理本性，妙哉.
+
+*注2*. 非齐次情形可以用Duhamel原理和Minkowski积分不等式得到非齐次bilinear Strichartz estimate
 
 $$
 \Vert uv\Vert_{L_t^2L_x^2} \lesssim_{\delta} (\Vert u_0\Vert_{\dot{H}^{-1/2+\delta}}+\Vert (i\partial_t+\Delta)u\Vert_{L_t^1\dot{H}_x^{-1/2+\delta}}) 
