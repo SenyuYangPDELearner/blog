@@ -257,7 +257,7 @@ $$
  \Vert uv\Vert_{L_t^2L_x^2}\lesssim \left(\frac{r_2}{r_1}\right)^{1/2} \Vert u_0\Vert_{L^2} \Vert v_0\Vert_{L^2}.
 $$
 
-Bourgain引入的多线性估计比经典的Strichartz估计更加精细地刻画了高频-低频的相互作用，换言之，更贴近色散方程“不同频率的波包对应不同的群速度”的物理本性，妙哉.
+Bourgain引入的*多线性估计*比经典的Strichartz估计更加精细地刻画了*高频-低频的相互作用*，换言之，更贴近色散方程“不同频率的波包对应不同的群速度”的物理本性，妙哉.
 
 *注2*. 非齐次情形可以用Duhamel原理和Minkowski积分不等式得到非齐次bilinear Strichartz estimate
 
