@@ -226,11 +226,11 @@ I\ \lesssim \Vert g\Vert_{L^2}\sum_{N} \Vert \widehat{u_0}_N\Vert_{L^2}\left(\su
 $$
 
 $$
-\lesssim \Vert g\Vert_{L^2}\vert \ \Vert \widehat{u_0}_N\Vert_{L^2}\vert_{l^2}  \vert \sum_{M\leq -1}  2^{-M\delta}  \Vert \widehat{v_0}_{M+N}\Vert_{L^2} \vert_{l^2}
+\lesssim \Vert g\Vert_{L^2}\vert \ \Vert \widehat{u_0}_N\Vert_{L^2}\vert_{l^2} \ \vert \sum_{M\leq -1}  2^{-M\delta}  \Vert \widehat{v_0}_{M+N}\Vert_{L^2} \vert_{l^2}
 $$
 
 $$
-\lesssim \Vert g\Vert_{L^2}\vert \ \Vert \widehat{u_0}_N\Vert_{L^2}\vert_{l^2}  \vert   2^{-N\delta}\vert_{l_{\leq -1}^1}  \vert \ \Vert \widehat{v_0}_{N}\Vert_{L^2} \vert_{l^2}
+\lesssim \Vert g\Vert_{L^2} \ \vert \ \Vert \widehat{u_0}_N\Vert_{L^2}\vert_{l^2} \ \vert   2^{-N\delta}\vert_{l_{\leq -1}^1} \ \vert \ \Vert \widehat{v_0}_{N}\Vert_{L^2} \vert_{l^2}
 $$
 
 $$
