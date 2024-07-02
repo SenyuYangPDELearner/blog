@@ -83,7 +83,13 @@ $$
 
 - 中间项 $\epsilon t_j^{-1}\< \vert \xi\vert\< (\epsilon t_j)^{-1}$ : 
 
-综上，存在充分小的 $\epsilon$ s.t. $I\geq C\vert A\vert^2-\epsilon^{1/2}\vert A\vert-\epsilon^1\vert A\vert \gtrsim \delta^2$ . Bourgain的魔法奏效了！&emsp; $\Box$
+综上，存在充分小的 $\epsilon$ s.t. 
+
+$$
+I\geq C\vert A\vert^2-\epsilon^{1/2}\vert A\vert-\epsilon^1\vert A\vert \gtrsim \delta^2.
+$$
+
+调和分析的魔法奏效了！&emsp; $\Box$
 
 <hr style="height:1px">
 
